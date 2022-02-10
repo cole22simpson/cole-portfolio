@@ -1,0 +1,104 @@
+:root {
+    --primary-color: rgb(73, 67, 67);
+    --secondary-color: rgb(194, 187, 187);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+header {
+    position: sticky;
+    z-index: 9999;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    background-color: var(--primary-color);
+    padding: 20px;
+    top: 0;
+}
+
+header h1 {
+    color: var(--secondary-color);
+    font-size: 50px;
+    margin: auto auto auto 30px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 2.0vw;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav ul li a:hover {
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+.hero {
+    background-image: url('../images/new-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    height: 150px;
+}
+
+.banner-text {
+
+}
+
+.hero h2 {
+
+}
+
+.bio {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cole-photo img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.work img {
+    height: 200px;
+    width: 50%;
+}
+
+.contact-info {
+    font-size: 2.0vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
