@@ -186,3 +186,35 @@ section {
     height: 100px;
     margin: 30px 50px;
 }
+
+/* media queries */
+
+@media screen and (max-width: 1257px) {
+    .work-link p {
+        top: -100px;
+    }
+
+    .contact-info h2 {
+        border-bottom: 3px solid var(--secondary-color);
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .bio-text {
+        font-size:22px;
+    }
+
+    .spacing h2 {
+        border-right: none;
+        border-bottom: 3px solid var(--secondary-color);
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 795px) {
+    .section-title {
+        border-right: none;
+        border-bottom: 3px solid var(--secondary-color);
+    }
+}
